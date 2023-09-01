@@ -14,7 +14,7 @@ $(function () {
         localStorage.setItem(time, description);
     });
     displayDateTime();
-    for (let i = 9; i < 18; i++) {
+    for (let i = 8; i < 18; i++) {
         $(`#hour-${i + 1} .description`).val(localStorage.getItem(`hour-${i + 1}`));
     };
 
