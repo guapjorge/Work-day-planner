@@ -1,6 +1,6 @@
 function displayDateTime() {
-    var currentDayOg = $('#currentDay');
-    var currentTimeOg = $('#currentTime');
+    const currentDayOg = $('#currentDay');
+    const currentTimeOg = $('#currentTime');
     currentDayOg.text(dayjs().format('dddd MMMM D, YYYY'));
     currentTimeOg.text(dayjs().format('h[:]mm a'));
 }
