@@ -1,3 +1,4 @@
+
 function displayDateTime() {
     const currentDayOg = $('#currentDay');
     const currentTimeOg = $('#currentTime');
